@@ -45,7 +45,7 @@ video {
 
 /* Text-Stile */
 .text-container p {
-    margin: 0;
+    margin: 5px;
     font-size: 15px;
     color: #222222;
     font-family: 'Arial', sans-serif;
