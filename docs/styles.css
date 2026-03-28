@@ -1,0 +1,54 @@
+body {
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background-image: url('sources/textur_orange_rosa.jpg');
+    background-repeat: repeat;
+    background-size: 500px 500px; /* Größe der Grafik anpassen */
+}
+
+/* Container für Video und Text */
+.content-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center; /* Zentriert Video und Text horizontal */
+    max-width: 1440px; /* Maximale Breite (entspricht der Video-Breite) */
+}
+
+/* Container für das Video */
+.video-container {
+    width: auto;
+    height: 800px; /* Feste Höhe (kannst du anpassen) */
+    margin-bottom: 20px; /* Abstand zwischen Video und Text */
+    background-color: rgba(255, 255, 255, 0.1);
+    border-radius: 10px;
+    box-sizing: border-box;
+}
+
+/* Video-Stile */
+video {
+    width: 100%;
+    height: 100%;
+    display: block;
+    object-fit: contain;
+}
+
+/* Container für den Text */
+.text-container {
+    width: 100%; /* Text ist so breit wie das Video */
+    /* padding: 10px; */
+    /* background-color: rgba(255, 255, 255, 0.2); */
+    /* border-radius: 5px; */
+    text-align: right; /* Text ist linksbündig */
+}
+
+/* Text-Stile */
+.text-container p {
+    margin: 0;
+    font-size: 15px;
+    color: #222222;
+    font-family: 'Consolas', monospace;
+}
