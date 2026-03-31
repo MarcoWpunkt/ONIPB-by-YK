@@ -5,7 +5,8 @@ body {
     justify-content: center;
     align-items: center;
     min-height: 100vh;
-    background-image: url('sources/bg5_blue.png');
+    /* background-image: url('sources/bg5_blue.png'); */
+    background-image: url('sources/bg6_red.png');
     background-repeat: repeat;
     background-size: 500px 500px; /* Größe der Grafik anpassen */
 }
